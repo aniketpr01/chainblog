@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.7",
+    "dotenv": "^16.0.3",
+    "hardhat-ethers": "^1.0.1",
+    "next": "^13.1.6"
+  },
+  "name": "solidity-blog-youtube",
+  "description": "![Dev.to Blog App Clone](https://i.ibb.co/JR0Wg6q/Clean-Shot-2022-09-21-at-17-30-12.jpg)",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@nomiclabs/hardhat-truffle5": "^2.0.7",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.7",
+    "web3": "^1.8.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.8",
+    "@livepeer/react": "^2.2.2",
+    "@rainbow-me/rainbowkit": "^0.5.0",
+    "ethers": "^5.7.0",
+    "graphql": "^16.6.0",
+    "moment": "^2.29.4",
+    "next": "^12.3.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-modal": "^3.15.1",
+    "react-router-dom": "^6.8.1",
+    "sass": "^1.54.7",
+    "urql": "^3.0.3",
+    "wagmi": "^0.6.4",
+    "web3": "^1.7.5",
+    "web3.storage": "^4.4.0"
+  },
+  "devDependencies": {
+    "@graphprotocol/client-cli": "^2.2.18",
+    "@graphprotocol/graph-cli": "^0.40.0",
+    "add": "2.0.6",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "yarn": "1.22.19"
+  }
+}

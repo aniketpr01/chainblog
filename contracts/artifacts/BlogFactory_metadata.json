@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_postTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_tag",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_timestamp",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_content",
+						"type": "string"
+					}
+				],
+				"name": "createBlogPost",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getUploadedPosts",
+				"outputs": [
+					{
+						"internalType": "contract Post[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "uploadedPosts",
+				"outputs": [
+					{
+						"internalType": "contract Post",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BlogFactory.sol": "BlogFactory"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BlogFactory.sol": {
+			"keccak256": "0xa18a3c4b4a432d91dd555e8c75f3bc937f3d85dfa401ee4c6694e30b6508d53b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cda5f51dd659d34f6a925ac5fd6f7d0358d8ebe26cadbdb6d1ee547f8ed9f9ec",
+				"dweb:/ipfs/QmXT2n4fznCj6trDmTXad5h4eqtPvzmxZzCVYcjZ5QqeKz"
+			]
+		},
+		"contracts/Post.sol": {
+			"keccak256": "0x8499020b362b6658aea727fef28ed259bcde5abdec090529db710c814f6579b7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bb017d505d690327e73c91461439861e617abfd688d87e55fd4587032e2317e7",
+				"dweb:/ipfs/QmXNnF4ksg6N8n9gbKioaoYyLFaHEv41YRV4fWJFdHf39j"
+			]
+		}
+	},
+	"version": 1
+}
