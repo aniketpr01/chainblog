@@ -52,9 +52,16 @@ A provider and signer
 https://mirror.xyz/
 https://www.bulbapp.io/
 https://www.sigle.io/
-https://steemit.com/
-https://hive.blog/
-https://www.publish0x.com/
-https://www.centblog.org/
-https://3speak.tv/
-https://substack.com/
+
+Project User Interface and Design
+
+Landing Page
+![alt text](https://github.com/aniketpr01/chainblog/blob/main/app/data/SCR-20230227-ccx.png?raw=true)
+
+Create Post Pop up
+![alt text](https://github.com/aniketpr01/chainblog/blob/main/app/data/SCR-20230227-cf2.png?raw=true)
+
+Fetch page with results as text, image and video
+![alt text](https://github.com/aniketpr01/chainblog/blob/main/app/data/SCR-20230227-cc0-2.jpeg?raw=true)
+
+
