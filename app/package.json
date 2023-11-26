@@ -23,8 +23,8 @@
     "react-router-dom": "^6.8.1",
     "sass": "^1.54.7",
     "urql": "^3.0.3",
-    "wagmi": "^0.6.4",
-    "web3": "^1.7.5",
+    "wagmi": "^0.11.0",
+    "web3": "^4.0.1",
     "web3.storage": "^4.4.0"
   },
   "devDependencies": {
