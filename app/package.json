@@ -25,7 +25,7 @@
     "urql": "^3.0.3",
     "wagmi": "^0.6.4",
     "web3": "^1.7.5",
-    "web3.storage": "^4.4.0"
+    "web3.storage": "^4.5.5"
   },
   "devDependencies": {
     "@graphprotocol/client-cli": "^2.2.18",
